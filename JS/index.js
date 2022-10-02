@@ -6,6 +6,7 @@ function hamburger(){
     myHamburger.classList.toggle("cross");
     Lists.classList.toggle("mylist");
     theNav.classList.toggle("mynav");
+    theNav.classList.toggle("line");
     document.body.classList.toggle("fixed");
 }
 // myLinks.forEach( n => n.addEventListener('click' , () => {
