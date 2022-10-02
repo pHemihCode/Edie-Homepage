@@ -500,7 +500,7 @@ nav{
   }
 nav::after{
     content:" ";
-    background-color: rgb(205, 202, 202);
+    background-color:#4F4F4F;;
     width:0%;
     height:4px;
     position:absolute;
