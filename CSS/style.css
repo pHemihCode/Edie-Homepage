@@ -150,8 +150,10 @@ span.cross::after{
     height: auto;
     border-radius: 12px;
     padding:4px 0;
+    padding-left:15px;
     margin-top:8px;
-    text-align: end;
+    display:flex;
+    justify-content: space-between;
 }
 .the-btn{
     font-size:1.125rem;
@@ -174,7 +176,7 @@ label{
 input{
     background-color: transparent;
     border:none;
-    padding:0 30px;
+    width:68%;
     font-size:1rem;
     color: #333333;
 }
@@ -494,7 +496,20 @@ footer label{
 nav{
     margin:1rem 0;
     height:auto;
+    position: relative;
   }
+nav::after{
+    content:" ";
+    background-color: rgb(205, 202, 202);
+    width:0%;
+    height:4px;
+    position:absolute;
+    left:0;
+    transition: width .5s ease-in-out;
+}
+nav.line::after{
+    width:100%;
+}
   .container{
     margin:0 .7rem;
     position: relative;
@@ -516,8 +531,8 @@ nav{
     left:-30px;
     display: block;
     padding-top:2rem;
-    box-shadow:2px 5px 5px #2D9CDB;
-    border-top:3px solid #2D9CDB;
+    margin-top:0;
+    box-shadow:0px 5px 5px #2D9CDB;
     transition: transform .8s;
   }
   nav ul.mylist{
@@ -605,7 +620,7 @@ label{
     opacity:70%;
 }
 input{
-    padding:0 15px;
+    padding:0 10px;
     font-size:0.88rem;
     width:66%;
 }
