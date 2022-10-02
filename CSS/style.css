@@ -510,7 +510,7 @@ nav{
     background-color: #4F4F4F;
     position: absolute;
     width:60%;
-    height:510px;
+    height:100vh;
     transform: translateX(-100%);
     left:-30px;
     display: block;
