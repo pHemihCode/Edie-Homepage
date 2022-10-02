@@ -176,6 +176,7 @@ input{
     border:none;
     padding:0 30px;
     font-size:1rem;
+    color: #333333;
 }
 input:focus{
     outline:none;
@@ -607,7 +608,6 @@ input{
     padding:0 15px;
     font-size:0.88rem;
     width:66%;
-    color: #BDBDBD;
 }
 /* ===========================================================SECTION THREE======================================= */
 .heading-three{
